@@ -8,10 +8,7 @@ data class ListCatResponse(
     val id: String,
 
     @field:SerializedName("url")
-    val url: String,
-
-    //@field:SerializedName("results")
-    //val results: List<CatDetail>
+    val url: String
 )
 
 data class CatResponse(
