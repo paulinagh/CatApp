@@ -38,7 +38,9 @@ val networkModule = module {
     single {
         val hostname = "api.thecatapi.com"
         val certificatePinner = CertificatePinner.Builder()
-            .add(hostname, "sha256/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=")
+            .add(hostname, "xYDsKCA76DUjGm+qPp4v8xkDP/bB2etpHxXjdw9UZfU=")
+            .add(hostname, "cXjPgKdVe6iojP8s0YQJ3rtmDFHTnYZxcYvmYGFiYME=")
+            .add(hostname, "hxqRlPTu1bMS/0DITB1SSu0vd4u/8l8TjPgfaAp63Gc=")
             .build()
 
         OkHttpClient.Builder()
