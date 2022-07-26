@@ -4,7 +4,7 @@ import com.cat.core.domain.CatDetail
 
 object DataDummy {
     val catDetail = CatDetail(
-        "1",
-        "https://story-api.dicoding.dev/images/stories/photos-1641623658595_dummy-pic.png"
+        "HrMmeu5x-V",
+        "https://cdn2.thecatapi.com/images/HrMmeu5x-V.jpg"
     )
 }
